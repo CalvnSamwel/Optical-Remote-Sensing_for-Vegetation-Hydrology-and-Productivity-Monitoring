@@ -5,11 +5,11 @@ Welcome to the Vegetation Indices Estimation Repository! This repository contain
 
 The repository includes scripts for preprocessing MODIS satellite data to remove clouds and no-data pixels, computing vegetation indices, and visualizing the results. This code can be used to monitor vegetation health and hydrology conditions over time.
 
-Vegetation Indices
-i) Near-Infrared Reflectance of Vegetation (NIRv)
+## Vegetation Indices
+* Near-Infrared Reflectance of Vegetation (NIRv)
 NIRv is a robust index that quantifies the contribution of vegetation to pixel reflectance. It is computed as a product of the Normalized Difference Vegetation Index (NDVI) and the near-infrared (NIR) band reflectance. NDVI itself is the normalized difference between the Red and NIR bands. NIRv enhances the impact of vegetation on NDVI by emphasizing NIR reflectance, thereby reducing background noise contributions. This makes NIRv a reliable indicator of vegetation health and biomass.
 
-ii) Normalized Difference Water Index (NDWI)
+* Normalized Difference Water Index (NDWI)
 NDWI monitors plant hydrology conditions by utilizing high reflectance from the cell mesophyll and water absorptions at NIR (860 nm) and SWIR (1240 nm) wavelengths. It is particularly sensitive to the water content in vegetation and is less affected by clouds compared to other indices such as the red-edge Normalized Difference Vegetation Index (NDVIre). This makes NDWI an effective tool for assessing vegetation water status during drought conditions.
 
 ## Code Overview
