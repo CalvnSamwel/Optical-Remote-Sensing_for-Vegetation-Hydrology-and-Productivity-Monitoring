@@ -17,7 +17,7 @@ NDWI monitors plant hydrology conditions by utilizing high reflectance from the 
 The script begins by defining the region of interest (ROI) and applying cloud masking to MODIS satellite images. The cloud masking functions remove cloudy and no-value pixels to ensure that only valid data is used for analysis.
 
 * Vegetation Indices Computation
-The main part of the script computes NIRv and NDWI for each image in the filtered and cloud-masked collection. The equations imployed are presented in the methodology design folder: 
+The main part of the script computes NIRv and NDWI for each image in the filtered and cloud-masked collection. The equations imployed are presented in the methodology design folder: https://github.com/CalvnSamwel/Optical-Vegetation-Hydrology-and-Productivity-Monitoring/blob/main/Methodology%20Design/Methodolgy%20Framework.pdf
 
 * Visualization and Analysis
 The script generates time series plots of NIRv and NDWI to visualize vegetation conditions over time. It also includes functions to compute vegetation anomalies, which represent the deviation of vegetation indices from their mean values over a 20-year period. This helps identify and quantify abnormal vegetation conditions such as those caused by drought.
