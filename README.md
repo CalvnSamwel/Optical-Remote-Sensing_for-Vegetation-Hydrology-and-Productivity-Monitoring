@@ -28,7 +28,8 @@ The script generates time series plots of NIRv and NDWI to visualize vegetation 
 * Image Statistics
 Additional layers are added to the map for visualization, including the median of the masked collection, the count of total observations, and the ratio of clear to total observations. These layers help in understanding the quality and coverage of the data used for analysis.
 
-=> Getting Started
+
+### Getting Started
 To use the scripts in this repository, you will need a Google Earth Engine account. Follow these steps to get started:
 
 * Clone or download the repository.
