@@ -19,21 +19,7 @@ The script begins by defining the region of interest (ROI) and applying cloud ma
 Vegetation Indices Computation
 The main part of the script computes NIRv and NDWI for each image in the filtered and cloud-masked collection. The equations used are:
 
-NIRv
-=
-(
-NIR
-−
-Red
-)
-(
-NIR
-+
-Red
-)
-×
-NIR
-10000
+NIRv = (NIR−Red)(NIR+Red)×NIR
 NIRv= 
 (NIR+Red)
 (NIR−Red)
