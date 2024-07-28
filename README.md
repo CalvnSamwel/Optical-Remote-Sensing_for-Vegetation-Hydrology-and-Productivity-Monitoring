@@ -17,52 +17,9 @@ Data Preprocessing
 The script begins by defining the region of interest (ROI) and applying cloud masking to MODIS satellite images. The cloud masking functions remove cloudy and no-value pixels to ensure that only valid data is used for analysis.
 
 Vegetation Indices Computation
-The main part of the script computes NIRv and NDWI for each image in the filtered and cloud-masked collection. The equations used are:
-
-NIRv = (NIR−Red)(NIR+Red)×NIR
-NIRv= 
-(NIR+Red)
-(NIR−Red)
-​
- × 
-10000
-NIR
-​
- 
-
-NDWI
-=
-(
-NIR
-−
-SWIR
-1240
-)
-(
-NIR
-+
-SWIR
-1240
-)
-NDWI= 
-(NIR+SWIR 
-1240
-​
- )
-(NIR−SWIR 
-1240
-​
- )
-​
- 
-
-Where:
-
-NIR is the near-infrared band (Band 2 in MOD09GA)
-Red is the red band (Band 1 in MOD09GA)
-SWIR1240 is the shortwave infrared band (Band 5 in MOD09GA)
+The main part of the script computes NIRv and NDWI for each image in the filtered and cloud-masked collection. The equations imployed are presented in the methodology design folder: 
 Visualization and Analysis
-The script generates time series plots of NIRv and NDWI to visualize vegetation condition over time. It also includes functions to compute vegetation anomalies, which represent the deviation of vegetation indices from their mean values over a 20-year period. This helps in identifying and quantifying abnormal vegetation conditions such as those caused by drought.
+The script generates time series plots of NIRv and NDWI to visualize vegetation conditions over time. It also includes functions to compute vegetation anomalies, which represent the deviation of vegetation indices from their mean values over a 20-year period. This helps identify and quantify abnormal vegetation conditions such as those caused by drought.
 
 Image Statistics
 Additional layers are added to the map for visualization, including the median of the masked collection, the count of total observations, and the ratio of clear to total observations. These layers help in understanding the quality and coverage of the data used for analysis.
@@ -70,12 +27,14 @@ Additional layers are added to the map for visualization, including the median o
 Getting Started
 To use the scripts in this repository, you will need a Google Earth Engine account. Follow these steps to get started:
 
-Clone or download the repository.
-Open the Google Earth Engine Code Editor.
-Create a new script and paste the code from the repository.
-Modify the table and table2 variables to match your input data.
-Run the script to generate the vegetation indices and visualize the results.
-References
+* Clone or download the repository.
+* Open the Google Earth Engine Code Editor.
+* Create a new script and paste the code from the repository.
+* Modify the table and table2 variables to match your input data.
+* Run the script to generate the vegetation indices and visualize the results.
+
+
+## References
 Gao, B. C. (1996). NDWI: A normalized difference water index for remote sensing of vegetation liquid water from space. Remote Sensing of Environment, 58(3), 257-266.
 Zeng, Y., Badgley, G., Dechant, B., Ryu, Y., Berry, J. A., & Baldocchi, D. D. (2022). A practical approach for estimating the sensitivity of ecosystem photosynthesis to light from space. Remote Sensing of Environment, 269, 112842.
 This repository is a part of the research conducted for monitoring vegetation health and understanding the impact of drought conditions using remote sensing techniques. Feel free to explore and use the code for your own research and projects. For any questions or contributions, please contact the author.
