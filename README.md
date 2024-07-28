@@ -1,4 +1,4 @@
-# Optical-Vegetation-Hydrology-and-Productivity-Monitoring
+# Optical-Vegetation-Water-Content-and-Productivity-Monitoring
 
 ## Introduction
 Welcome to the Vegetation Indices Estimation Repository! This repository contains JavaScript code for estimating vegetation indices using Google Earth Engine (GEE). The code is designed to analyze the dynamics of vegetation properties, especially under drought conditions, using two key vegetation condition indices: the Near-Infrared Reflectance of Vegetation (NIRv) and the Normalized Difference Water Index (NDWI).
