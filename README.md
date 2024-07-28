@@ -39,8 +39,6 @@ To use the scripts in this repository, you will need a Google Earth Engine accou
 
 
 ## References
-Gao, B. C. (1996). NDWI: A normalized difference water index for remote sensing of vegetation liquid water from space. Remote Sensing of Environment, 58(3), 257-266.
-Zeng, Y., Badgley, G., Dechant, B., Ryu, Y., Berry, J. A., & Baldocchi, D. D. (2022). A practical approach for estimating the sensitivity of ecosystem photosynthesis to light from space. Remote Sensing of Environment, 269, 112842.
-This repository is a part of the research conducted for monitoring vegetation health and understanding the impact of drought conditions using remote sensing techniques. Feel free to explore and use the code for your own research and projects. For any questions or contributions, please contact the author.
+Zeng, Y., Hao, D., Huete, A., Dechant, B., Berry, J., Chen, J. M., Joiner, J., Frankenberg, C., Bond-Lamberty, B., Ryu, Y., Xiao, J., Asrar, G. R., & Chen, M. (2022). Optical vegetation indices for monitoring terrestrial ecosystems globally. Nature Reviews Earth and Environment, 3(7), 477–493. https://doi.org/10.1038/s43017-022-00298-5
 
-Happy coding!
+Happy coding😊!
